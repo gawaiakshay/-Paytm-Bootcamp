@@ -1,0 +1,682 @@
+*{margin: auto;
+padding: 0px;
+font-family: sans-serif;
+
+}
+
+
+
+main{background-color: white;
+height: 5000px;
+width: 1250px;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+
+.logo{background-color: transparent;
+height: 90px;
+width: 160px;
+float: left;
+}
+
+
+.navbar{
+    background-color: transparent;
+    width: 1050px;
+    height: 50px;
+    float: right;
+    margin-top: 30px;
+}
+
+.navbar li{display: block;
+float:left;
+height: 40px;
+background-color: white;
+
+margin-top: 10px;
+margin-left:70px; 
+text-align: center;
+line-height: 40px;
+
+}
+
+.navbar ul li a{text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    color: black;
+   
+
+
+}
+.button1{ width: 100px;
+    border-radius: 30px;
+    font-weight: 40px;
+    border: 3px solid skyblue;;
+    cursor: pointer;
+    background-color: skyblue;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 30px;
+    position: relative;
+    left: 50px;
+   
+   
+float: left;}
+
+.note{background-color: gray;
+height: 50px;
+width: 1250px;
+float: right;}
+    
+.line1{margin-left: 290px;
+margin-top: 10px;}
+
+
+.section{
+    background-color: blue;
+    height: 4000px;
+    width: 1250px;
+}
+
+.logo2{background-color: rgb(165, 42, 122);
+height: 100px;
+width: 100px ;
+float: left;
+margin-top: 50px;
+}
+
+.heading{background-color: white;
+    height: 400px;
+    width: 600px;
+    float: left;
+    position: absolute;
+    top: 350px;
+
+    
+}
+
+.heading h1{font-size: 60px;}
+.heading p{font-size: 20px;
+position: relative;
+top: 20px;}
+
+.button2{ width: 200px;
+    border-radius: 30px;
+    font-weight: 40px;
+    border: 3px solid black;;
+    cursor: pointer;
+    background-color:black;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 30px;
+    position: relative;
+    left: 30px;
+    color: white;
+   
+   
+float: left;}
+
+.mobile{background-color: white;
+height: 600px;
+width: 600px;
+float: right;
+position: relative;
+top: 50px;
+background-image: url(../images/paytm\ mobile.png);
+background-size: cover;
+
+}
+
+.recharge{background-color: skyblue;
+height: 350px;
+width: 1250px;
+float: right;
+position: relative;
+top: 150px;}
+
+.rechargeandpay{background-color: skyblue;
+height: 50px;
+width: 1250px;}
+
+
+
+
+
+.recharge h1{
+    font-size: 40px;
+   
+}
+
+
+.flex2{background-color: skyblue;
+height: 300px;
+width: 1250px;
+float: left;
+display: flex;
+justify-content: space-evenly;
+
+position: absolute;
+top: 950px;}
+
+.item1{background-color: skyblue;
+height: 200px;
+width: 150px;
+position: relative;
+top: 50px;}
+
+.item2{background-color: skyblue;
+    height: 200px;
+    width: 150px;position: relative;
+    top: 50px;}
+
+    .item3{background-color: skyblue;
+        height: 200px;
+        width: 150px;position: relative;
+        top: 50px;}
+
+        .item4{background-color: skyblue;
+            height: 200px;
+            width: 150px;position: relative;
+            top: 50px;}
+
+            .item5{background-color: skyblue;
+                height: 200px;
+                width: 150px;position: relative;
+                top: 50px;}
+
+                .item6{background-color: skyblue;
+                    height: 200px;
+                    width: 150px;position: relative;
+                    top: 50px;}
+                    
+
+                    .item7{background-color: skyblue;
+                        height: 200px;
+                        width: 150px;position: relative;
+                        top: 50px;}
+
+
+                        .flex2 a{text-decoration: none;
+                        color: black;
+                    font-style: bold;}
+
+                    .item1:hover{background-color: rgb(7, 180, 248);
+                    border-radius: 10px;}
+
+                    .item2:hover{background-color: rgb(7, 180, 248);
+                        border-radius: 10px;}
+
+                        .item3:hover{background-color: rgb(7, 180, 248);
+                            border-radius: 10px;}
+
+                            .item4:hover{background-color: rgb(7, 180, 248);
+                                border-radius: 10px;}
+                                
+                                .item5:hover{background-color: rgb(7, 180, 248);
+                                    border-radius: 10px;}
+                                    
+                                    .item6:hover{background-color: rgb(7, 180, 248);
+                                        border-radius: 10px;}
+
+                                        .item7:hover{background-color: rgb(7, 180, 248);
+                                            border-radius: 10px;}
+                                            
+
+
+   .bookand{background-color: rgb(90, 90, 242);
+height: 50px;
+width: 1250px;}         
+
+.flex3{background-color: rgb(90, 90, 242);
+height: 300px;
+width: 1250px;
+
+display: flex;
+justify-content: space-evenly;}
+
+.item8{background-color: rgb(90, 90, 242);
+    height: 200px;
+    width: 150px;
+    position: relative;
+    top: 50px;}
+    
+    .item9{background-color: rgb(90, 90, 242);
+        height: 200px;
+        width: 150px;position: relative;
+        top: 50px;}
+    
+        .item10{background-color: rgb(90, 90, 242);
+            height: 200px;
+            width: 150px;position: relative;
+            top: 50px;}
+    
+            .item11{background-color: rgb(90, 90, 242);
+                height: 200px;
+                width: 150px;position: relative;
+                top: 50px;}
+    
+                .item12{background-color: rgb(90, 90, 242);
+                    height: 200px;
+                    width: 150px;position: relative;
+                    top: 50px;}
+    
+                    .item13{background-color: rgb(90, 90, 242);
+                        height: 200px;
+                        width: 150px;position: relative;
+                        top: 50px;}
+                        
+    
+                        .item14{background-color: rgb(90, 90, 242);
+                            height: 200px;
+                            width: 150px;position: relative;
+                            top: 50px;}
+    
+                            .flex3 a{text-decoration: none;
+                                color: black;
+                            font-style: bold;}
+
+                            .item8:hover{background-color: rgb(31, 31, 159);
+                                border-radius: 10px;}
+            
+                                .item9:hover{background-color: rgb(31, 31, 159);
+                                    border-radius: 10px;}
+            
+                                    .item10:hover{background-color: rgb(31, 31, 159);
+                                        border-radius: 10px;}
+            
+                                        .item11:hover{background-color: rgb(31, 31, 159);
+                                            border-radius: 10px;}
+                                            
+                                            .item12:hover{background-color: rgb(31, 31, 159);
+                                                border-radius: 10px;}
+                                                
+                                                .item13:hover{background-color: rgb(31, 31, 159);
+                                                    border-radius: 10px;}
+            
+                                                    .item14:hover{background-color: rgb(31, 31, 159);
+                                                        border-radius: 10px;}
+                                                        
+
+        
+                                        
+                                        
+                                                        
+                            
+                        
+                        
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book{background-color: rgb(53, 53, 182);
+    height: 350px;
+    width: 1250px;
+    float: right;
+    position: relative;
+    top: 150px}
+
+    .book h1{
+        font-size: 40px;
+       
+       
+    }
+
+    .instrument{
+        background-color: white;
+        height: 100px;
+        width: 1250px;
+        float: left;
+        position: relative;
+        top: 200px;
+    }
+
+    .instrument h1{font-size: 40px;
+    position: relative;
+    top: 20px;
+left: 50px;}
+
+.instrument1{
+    background-color: white;
+    height: 500px;
+    width: 1250px;
+ float: left;
+ position: relative;
+ top: 200px;
+
+}
+
+.wallet{
+    background-color: white;
+    height: 150px;
+    width: 180px;
+    float: left;
+    position: relative;
+    top: 30px;
+    background-image: url(../images/paytm\ wallet.png);
+   
+    background-repeat: no-repeat;
+}
+
+.fastest{background-color: white;
+height: 300px;
+width: 650px;
+
+position: relative;
+top: 200px;}
+
+.fastest h1{
+    font-size: 40px;
+   
+    position: absolute;
+    left: 60px;
+
+}
+
+
+.fastest p{
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+
+.button3{ width: 200px;
+    border-radius: 30px;
+    font-weight: 40px;
+    border: 3px solid black;;
+    cursor: pointer;
+    background-color:black;
+    height: 40px;
+    margin-top: 50px;
+    margin-right: 30px;
+    position: relative;
+    left: 150px;
+    color: white;
+   
+   
+float: left;}
+
+
+
+
+.mobile2{
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    float: right;
+    position: relative;
+    bottom: 300px;
+    background-image: url(../images/paytm\ mobile\ 2.png);
+    background-size: cover;
+}
+
+.rupees{
+    background-color: white ;
+    height: 900px;
+    width: 1250px;
+    float: left;
+    margin-left: 40px;
+   
+}
+
+.upi{
+    background-color: white;
+   width: 100px;
+   height: 100px;
+    
+    position: relative;
+    top: 200px;
+    background-image: url(../images/rupees.png);
+    background-size: cover;}
+
+    .pay{
+        background-color: white;
+        height: 550px;
+        width: 610px;
+    }
+
+    .pay h1{
+        font-size: 40px;
+        position: relative;
+        top: 220px;
+    }
+    
+    .pay p{font-size: 20px;
+       position: relative;
+       top: 100px;}
+
+
+
+
+    .paid{background-color: white;
+    height: 550px;
+width: 600px;
+float: right;
+position: relative;
+top: -400px;
+background-image: url(../images/paid.png);
+background-size: cover;}
+
+.tools{background-color: white;
+height: 600px;
+width: 1250px;
+margin-left: 40px;
+float: left;
+display: flex;
+justify-content: space-evenly;
+
+
+
+
+
+
+}
+.buisness{background-color: white;
+height: 100px;
+width: 1000px;
+float: left;
+margin-left: 40px;}
+
+.buisness h1{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+.one{background-color: white;
+    height: 300px;
+    width: 300px;
+    background-image: url(../images/dashboard.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    top: 50px;
+   
+}
+
+    .two{background-color: white;
+        height: 300px;
+        width: 250px;
+    background-image: url(../images/accept.png);
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        top: 50px;
+       
+        }
+
+        .three{background-color: white;
+            height: 300px;
+            width: 250px;
+        background-image: url(../images/visa.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    top: 50px;
+   
+   
+
+}
+
+            .four{background-color: white;
+                height: 300px;
+                width: 250px;
+            background-image: url(../images/ramlal.png);
+        background-size: cover;
+        text-align: center;  
+        position: relative;
+        top: 50px;
+       
+        
+    }
+
+        .five{background-color: white;
+        height: 150px;
+    width: 300px;
+position: relative;
+top: 300px;}
+
+.six{background-color: white;
+    height: 150px;
+width: 250px;
+position: relative;
+top: 300px;}
+
+
+.seven{background-color: white;
+    height: 150px;
+width: 250px;
+position: relative;
+top: 300px;}
+
+.eight{background-color: white;
+    height: 150px;
+width: 250px;
+position: relative;
+top: 300px;}
+
+.five p{font-size: 20px;
+position: relative;
+top: 20px;}
+
+
+.six p{font-size: 20px;
+    position: relative;
+    top: 20px;}
+    
+    
+.seven p{font-size: 20px;
+    position: relative;
+    top: 30px;}
+    
+    .eight p{font-size: 20px;
+        position: relative;
+        top: 30px;}
+
+        .xxx{background-color: white;
+        height: 50px;
+    width: 300px;
+}
+.five h1{position: relative;
+top: 10px;}
+
+
+.six h1{position: relative;
+    top: 20px;}
+
+    .seven h1{position: relative;
+        top: 25px;}
+
+        .eight h1{position: relative;
+            top: 25px;}
+    
+
+footer{background-color: rgb(253, 253, 253);
+height: 1850px;
+width: 1250px;
+float: left;
+margin-left: 40px;
+
+}            
+
+
+.flex{background-color: white;
+height: 200px;
+width: 1250px;
+display: flex;
+justify-content: space-between;
+justify-items: center;}
+
+.besafe{
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+}
+.Disclaimers{
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+}
+
+.bankgrade{background-color: gray;
+height: 200px;
+width: 400px;
+background-image: url(../images/bank\ grade.JPG);
+background-size: cover;
+}
+.colour1{background-color: aqua;
+height: 10px;
+width: 1250px;
+position: relative;
+top: 60px;}
+
+.colour2{background-color: blue;
+    height: 10px;
+    width: 1250px;
+    position: relative;
+    top: 60px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color:blue;
+    }
+    
+
+
+
+
+
+       
+                
