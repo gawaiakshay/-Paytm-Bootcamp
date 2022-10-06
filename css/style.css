@@ -389,7 +389,8 @@ height: 300px;
 width: 650px;
 
 position: relative;
-top: 200px;}
+top: 180px;
+left: -270px;}
 
 .fastest h1{
     font-size: 40px;
@@ -404,7 +405,7 @@ top: 200px;}
     font-size: 20px;
     position: absolute;
     top: 120px;
-    left: 30px;
+    left: 50px;
 }
 
 .button3{ width: 200px;
@@ -452,25 +453,47 @@ float: left;}
    height: 100px;
     
     position: relative;
-    top: 200px;
+    top: 310px;
+    left: -550px;
     background-image: url(../images/rupees.png);
     background-size: cover;}
 
     .pay{
         background-color: white;
-        height: 550px;
+        height: 300px;
         width: 610px;
+        position: relative;
+        top: 350px;
+        left: -300px;
+
+        
+        
     }
 
     .pay h1{
         font-size: 40px;
-        position: relative;
-        top: 220px;
+        
     }
     
     .pay p{font-size: 20px;
-       position: relative;
-       top: 100px;}
+       ;}
+
+
+
+       
+.button4{ width: 200px;
+    border-radius: 30px;
+    font-weight: 40px;
+    border: 3px solid black;;
+    cursor: pointer;
+    background-color:black;
+    height: 40px;
+    margin-top: -50px;
+    margin-right: 30px;
+    position: relative;
+    left: 150px;
+    color: white;}
+   
 
 
 
@@ -480,7 +503,7 @@ float: left;}
 width: 600px;
 float: right;
 position: relative;
-top: -400px;
+top: -100px;
 background-image: url(../images/paid.png);
 background-size: cover;}
 
@@ -521,7 +544,7 @@ margin-left: 40px;}
     background-size: cover;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: -100px;
    
 }
 
@@ -532,7 +555,7 @@ margin-left: 40px;}
         background-size: cover;
         text-align: center;
         position: relative;
-        top: 50px;
+        top: -100px;
        
         }
 
@@ -543,7 +566,7 @@ margin-left: 40px;}
     background-size: cover;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: -100px;
    
    
 
@@ -556,7 +579,7 @@ margin-left: 40px;}
         background-size: cover;
         text-align: center;  
         position: relative;
-        top: 50px;
+        top: -100px;
        
         
     }
@@ -671,7 +694,12 @@ top: 60px;}
     footer a{
         text-decoration: none;
         color:blue;
+
+
     }
+
+    .more{position: relative;
+    left: px;}
     
 
 
